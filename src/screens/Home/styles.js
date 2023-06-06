@@ -31,7 +31,7 @@ export const BannerText = styled.h1`
 export const CardContainer = styled.div`
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-wrap: wrap;
 `;
 
@@ -44,6 +44,7 @@ export const ChatContainer = styled.div`
   border-radius: ${BorderRadius.THREE};
   flex-wrap: wrap;
   padding: ${Spaces.ONE};
+  cursor:pointer;
 `;
 
 export const ChatTextContainer = styled.div`
@@ -63,4 +64,14 @@ export const ChatTextSubTitle = styled.p`
   color: ${Colors.WHITE};
   font-weight: ${FontWeights.REGULAR};
   text-align: justify;
+`;
+
+export const ContactContainer = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: ${Spaces.TWO};
+
 `;

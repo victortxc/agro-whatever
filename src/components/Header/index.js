@@ -13,7 +13,7 @@ export function Header() {
             <MenuContainer>
                 <MenuItem href="/">Home</MenuItem>
                 <MenuItem href="/">Blog</MenuItem>
-                <MenuItem href="/">Chat</MenuItem>
+                <MenuItem href="/chat">Chat</MenuItem>
                 <MenuItem href="/">Contact</MenuItem>
                 <RiAccountCircleFill color="white" size={40} />
             </MenuContainer>

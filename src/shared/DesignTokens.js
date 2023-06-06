@@ -4,7 +4,8 @@ export const Colors = {
     BACKGROUND: '#EAF1EC',
     DARK_GREEN: '#1A5C2C',
     GREEN: '#1FA042',
-    LIGHT_GREEN: '#AFCEB8'
+    LIGHT_GREEN: '#AFCEB8',
+    RED: '#dc3545',
 };
 
 export const FontSizes = {
