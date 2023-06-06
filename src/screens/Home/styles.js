@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {Spaces, FontSizes, Colors, FontWeights} from "../../shared/DesignTokens";
+import {FontSizes, Colors, FontWeights, BorderRadius, Spaces} from "../../shared/DesignTokens";
 import head from '../../assets/Head.png';
 
 export const BannerContainer = styled.div`
@@ -17,7 +17,7 @@ export const BannerContainer = styled.div`
   }
 `;
 
-export const BannerText = styled.p`
+export const BannerText = styled.h1`
     font-size: ${FontSizes.FIVE};
     text-align: center;
     color: ${Colors.WHITE};
@@ -26,4 +26,41 @@ export const BannerText = styled.p`
     @media (max-width: 768px) { 
         font-size: ${FontSizes.FOUR};
   }
+`;
+
+export const CardContainer = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+`;
+
+export const ChatContainer = styled.div`
+  width: 100%;
+  background-color: ${Colors.DARK_GREEN};
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  border-radius: ${BorderRadius.THREE};
+  flex-wrap: wrap;
+  padding: ${Spaces.ONE};
+`;
+
+export const ChatTextContainer = styled.div`
+  display: flex;
+  align-items: center;
+`;
+
+export const ChatTextTitle = styled.p`
+  font-size: ${FontSizes.THREE};
+  color: ${Colors.WHITE};
+  font-weight: ${FontWeights.BOLD};
+  text-align: justify;
+`;
+
+export const ChatTextSubTitle = styled.p`
+  font-size: ${FontSizes.TWO};
+  color: ${Colors.WHITE};
+  font-weight: ${FontWeights.REGULAR};
+  text-align: justify;
 `;

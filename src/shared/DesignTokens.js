@@ -1,10 +1,10 @@
 export const Colors = {
     WHITE: '#FFFFFF',
     BLACK: '#000000',
-    BACKGROUND: '#AFCEB8',
+    BACKGROUND: '#EAF1EC',
     DARK_GREEN: '#1A5C2C',
     GREEN: '#1FA042',
-    LIGHT_GREEN: '#DEFFE7'
+    LIGHT_GREEN: '#AFCEB8'
 };
 
 export const FontSizes = {
@@ -20,9 +20,9 @@ export const FontSizes = {
 };
 
 export const FontWeights = {
-    THIN: 300,
+    THIN: 200,
     REGULAR: 400,
-    BOLD: 600
+    BOLD: 700
 };
 
 export const Spaces = {
@@ -37,5 +37,7 @@ export const Spaces = {
 };
 
 export const BorderRadius = {
-    ONE: '4px'
+    ONE: '4px',
+    TWO: '8px',
+    THREE: '12px'
 };
