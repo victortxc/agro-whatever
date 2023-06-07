@@ -1,5 +1,5 @@
 <div align="center">
-    <img align="center" alt="esg" title="agro" src="src/assets/logo.png" />
+    <img align="center" alt="esg" title="agro" src="src/assets/logo.png" width="150" />
 </div>
 
 <p align="center">
