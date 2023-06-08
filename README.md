@@ -25,6 +25,8 @@ This project was developed using the following technologies:
 
 ## 🚀 Getting started
 
+The project can be accessed at the following link: https://agro-whatever.vercel.app/
+
 Clone the project and access the folder
 
 ```bash
